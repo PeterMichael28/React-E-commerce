@@ -1,0 +1,591 @@
+
+/*hero section*/
+#hero {
+    height: 100vh;
+    background: url("../assets/hero4.png") center/cover no-repeat;
+    margin-top: 3.5rem;
+}
+#hero h4 {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    margin-bottom: .3rem;
+    font-weight: 600;
+}
+#hero h2 {
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+    margin: 2px 0;
+    line-height: 2.3rem;
+    font-weight: 700;
+}
+#hero .h2-green {
+    color: #088178;
+}
+#hero p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .7);
+    margin: 3px 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.hero-btn {
+    background: url("../assets/button.png") center/cover no-repeat;
+    width: 180px;
+    color: #088178;
+    padding: 10px 20px;
+    margin: 9px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+/*end of hero section*/
+ 
+/*Features section*/
+
+#services .card {
+    width: 14%;
+    padding: 15px 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1),
+                -1px -1px 1px 1px rgba(0, 0, 0, .1);
+    margin: 13px;
+    min-width: 125px;
+    transition: .5s ease all ;
+}
+#services .card:hover {
+    box-shadow: 1px 1px 1px 5px rgba(0, 0, 0, .1),
+                -1px -1px 1px 5px rgba(0, 0, 0, .1);
+}
+#services .card h4 {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, .7);
+    font-size: .9rem;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: #fddde4;
+}
+/*End of Features section*/
+
+/*products*/
+#products .pro {
+    width: 21%;
+    min-width: 180px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1),
+                -1px -1px 1px 1px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    margin: 13px;
+    transition: .4s ease all;
+}
+#products .pro:hover {
+    box-shadow: 1px 1px 1px 5px rgba(0, 0, 0, .1),
+                -1px -1px 1px 5px rgba(0, 0, 0, .1);
+}
+
+#products .pro img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+#products .pro-text {
+    text-align: left;
+    margin-top: 5px;
+}
+#products .pro-text span {
+    color: rgba(0, 0, 0, .7);
+    font-size: .8rem;
+
+}
+#products .pro-text h5 {
+    color: #088178;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+#products .pro-text h4 {
+    color: #088178;
+}
+#products .pro-text .icons {
+    color: #ffd700;
+    font-size: .8rem;
+}
+#products .pro-text div{
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}
+#products .pro-text .cart {
+    background-color: #088178;
+    padding: 6px 9px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*end of products*/
+
+
+/*Home banner*/
+/*banner1*/
+#banner1 {
+    width: 100%;
+    background: url('../assets/banner/b2.jpg') no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 40vh;
+    color: white;
+}
+#banner1 h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px auto;
+}
+#banner1 h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 10px auto;
+}
+#banner1 h2 span {
+    color: #ff0101;
+}
+#banner1 a {
+    padding: 10px 20px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 5px auto;
+    transition: .3s ease all;
+}
+#banner1 a:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+/*Banner 2*/
+#banner2 article {
+    background: url("../assets/banner/b17.jpg") center/cover no-repeat;
+    width: 47%;
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    height: 50vh;
+}
+#banner2 article:nth-child(2) {
+    background: url("../assets/banner/b10.jpg") center/cover no-repeat;
+}
+#banner2 article span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#banner2 article h2 {
+    font-size: 2.2rem;
+    margin: 5px 0;
+    letter-spacing: 2px;
+}
+#banner2 article p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#banner2 article a {
+    font-size: 1.1rem;
+    padding: 14px 20px;
+    border: 1px solid white;
+    font-weight: 600;
+    margin: 5px 0;
+    transition: .3s ease all;
+    color: white;
+    outline: none;
+}
+#banner2 article:hover a{
+    background-color: #088178;
+    border: none;
+}
+
+/*banner3*/
+#banner3 article {
+    background: url("../assets/banner/b7.jpg") center/cover no-repeat;
+    width: 31%;
+    height: 30vh;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    margin: 20px 10px;
+}
+#banner3 article:nth-child(2) {
+    background: url("../assets/banner/b4.jpg") center/cover no-repeat;
+    flex: 1 0 0;
+}
+#banner3 article:nth-child(3) {
+    background: url("../assets/banner/b18.jpg") center/cover no-repeat;
+}
+#banner3 article h4 {
+    margin: 3px 0; 
+    font-weight: 500; 
+    font-size: 1rem;
+}
+#banner3 article h1 {
+    margin: 3px 0; 
+    font-weight: 600; 
+    font-size: 2rem;
+}
+/* end Home banner*/
+
+    /*Newsletter*/
+    #news-letter {
+        color: white;
+        background-color: rgb(3, 3, 24);
+        height: 25vh;
+        }
+        #news-letter div {
+            width: 45%;
+        }
+        #news-letter h1 {
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 5px 0;
+            font-size: 1.9rem;
+        }
+        #news-letter p {
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin: 5px 0;
+            color: rgba(255, 255, 255, .7);
+            font-size: small;
+        }
+        #news-letter p span {
+            color: rgb(227, 227, 7);
+        }
+    
+        #news-letter form {
+            width: 45%;
+        }
+        #news-letter form input{
+            width: 70%;
+            border: none;
+            outline: none;
+            padding: 14px;
+    
+        }
+        #news-letter form button{
+            border: none;
+            outline: none;
+            background-color: #088178;
+            color: white;
+            padding: 16.5px 15px;
+            font-size: .8rem;
+        }
+        ::placeholder{
+            color: rgba(0, 0, 0, .7);
+            font-size: .7rem;
+            letter-spacing: 1.5px;
+        }
+         /*End of Newsletter*/
+
+         /*Footer section*/
+        #footer {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        #footer h1 {
+            font-size: 1rem;
+            margin: 0 0 15px;
+            font-weight: 600;
+        }
+        .foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer1 img {
+            margin: 0 0 15px;
+            padding: 0;
+        }
+        .footer1 p {
+            font-size: .8rem;
+            margin: 5px 0;
+            letter-spacing: 1px;
+        }
+        .footer1 h2 {
+            margin: 15px 0 5px;
+            font-size: 1rem;
+        }
+        
+        .footer2 {
+            display: flex;
+            flex-direction: column;
+            margin: 0 20px;
+        }
+        .footer2 a {
+            margin: 5px 0;
+            color: rgba(0, 0, 0, .8);
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+        .footer3 p {
+            font-size: .8rem;
+            margin: 10px 0;
+            color: rgba(0, 0, 0, .8);
+            letter-spacing: 1px;
+        }
+        .img img {
+            border: 1px solid #088178;
+            border-radius: 10px;
+            padding: 2px 10px;
+            margin: 0;
+        }
+        .copyright {
+            font-size: .7rem;
+            letter-spacing: 1.5px;
+            margin: 2rem 0 ;
+        }
+         /*end of Footer section*/
+
+
+@media only screen and (max-width: 960px) and (min-width: 541px) {
+    /*products*/
+    #products .pro {
+        width: 35%;
+       margin: 18px;
+   }
+/*end of products*/
+
+   /*Home banner*/
+   /* banner 1*/
+   #banner1 {
+    background-size: cover;
+    padding: 10px;
+    height: 35vh;
+    text-align: center;
+    }
+    #banner1 h2 {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    /*banner 2*/
+    #banner2 {
+    flex-direction: column;
+    }
+    #banner2 article {
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    /*banner 3*/
+    #banner3 article {
+        width: 32%;
+        margin: 0;
+        margin-right: 7px;
+    }
+    /*end of Home banner 1*/
+
+
+     /*Newsletter*/
+     #news-letter {
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        height: auto;
+        padding: 10px 25px;
+    
+    }
+    #news-letter div {
+        width: 100%;
+    }
+    #news-letter h1 {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    #news-letter p {
+        font-weight: 500;
+        font-size: .9rem;
+    }
+    #news-letter form {
+        width: 500px;
+        margin: 15px 0;
+        align-self: flex-start;
+    }
+    
+    #news-letter form button{
+        font-size: 1rem;
+        width: 30%;
+        padding: 14px;
+    }
+    /*End of Newsletter*/
+
+    /*footer section*/
+    #footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .foot {
+        min-width: 300px;
+    }
+        .footer1 {
+            margin: 0 15px 35px 0;
+        }
+        .footer1 p {
+            font-size: .9rem;
+        }
+        .footer1 h2 {
+            font-size: .9rem;
+            margin: 15px 0;
+        }
+        
+        .footer2 {
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 30px;
+        }
+        .footer2 a {
+            font-size: .8rem;
+        }
+    /*end of footer section*/
+}
+
+@media only screen and (max-width: 560px) {
+
+       /*hero */
+    #hero {
+        background-size: cover;
+        background-position: top 30% right 40%;
+    }
+    #hero h2 {
+        font-size: 2.4rem;
+        letter-spacing: 1.5px;
+        margin: 4px 0;
+    }
+    /*end of hero */
+
+       /*features services */
+    #services .card {
+        width: 35%;
+    }
+      /*End of features services */
+
+      /*products*/
+      #products .pro {
+        min-width: 270px;
+        margin: 13px auto;
+    }
+    /*end of products*/
+
+       /*home banner*/
+       /* banner 1*/
+       #banner1 {
+        background-size: cover;
+        padding: 10px;
+    }
+    #banner1 h2 {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+        /*banner 2*/
+        #banner2 {
+            flex-direction: column;
+        }
+        #banner2 article {
+            width: 100%;
+            margin: 10px;
+            padding: 20px;
+        }
+    
+        /*banner 3*/
+        #banner3 {
+            flex-direction: column;
+        }
+        #banner3 article {
+            width: 100%;
+            margin: 5px;
+        }
+        #banner3 article:nth-child(2) {
+            height: 30vh;
+        }
+        #banner3 article h4 {
+            margin: 3px 0; 
+            font-weight: 500; 
+        }
+    /*End of home banner*/
+
+    /*Newsletter*/
+#news-letter {
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+
+}
+#news-letter div {
+    width: 100%;
+}
+#news-letter h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#news-letter p {
+    font-weight: 500;
+    font-size: .8rem;
+}
+#news-letter form {
+    width: 100%;
+    margin: 15px 0;
+}
+#news-letter form input{
+    width: 70%;
+    padding: 12px;
+
+}
+#news-letter form button{
+    font-size: 1rem;
+    width: 30%;
+    padding: 12px 15px;
+}
+    /*End of Newsletter*/
+
+
+    /*footer section*/
+
+#footer {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.foot {
+    width: 80%;
+    justify-content: space-between;
+}
+.footer1 {
+    width: 100%;
+    margin: 20px 0 40px;
+}
+.footer1 p {
+    font-size: .9rem;
+}
+.footer1 h2 {
+    font-size: .9rem;
+    margin: 15px 0;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px;
+}
+.footer2 a {
+    font-size: .8rem;
+}
+
+.img img {
+    border: 1px solid #088178;
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin: 0;
+    width: 130px;
+    height: 40px;
+}
+    /*end of footer section*/
+
+}

@@ -1,0 +1,145 @@
+/*contact map*/
+#contact-map {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.con-text {
+    width: 40%;
+    margin-right: 30px;
+}
+h2 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+.con-text .span {
+    color: rgba(0, 0, 0, .9);
+    font-weight: 400;
+    font-size: .9rem;
+}
+.con-text h4 {
+   font-size: .9REM;
+   margin-bottom: 10px; 
+}
+.con-text p {
+    font-size: .9rem;
+}
+.con-text li {
+    display: flex;
+    margin: 15px 0;
+}
+.con-text li i {
+    margin-right: 5px;
+    font-size: .9rem;
+}
+.map {
+    width: 50%;
+    height: 350px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*contact form*/
+#con-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .4);
+    padding: 2rem 4rem;
+    margin: 4rem 2rem;
+}
+.con-form {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+.con-form input,
+.con-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+.con-form input:focus,
+.con-form textarea:focus {
+  border-color: rgba(0, 0, 0, .4);
+  outline: none;
+}
+.form-btn2 {
+    padding: 10px 15px;
+    background-color: #088178;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .3s ease transform;
+
+}
+.form-btn2:hover {
+    transform: scale(0.8);
+}
+.details {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.details img {
+    width: 55px;
+    height: 55px;
+    margin-right: 14px;
+}
+.details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+.details p {
+    font-size: .9rem;
+    margin-bottom: 3px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 560px){
+    /*contact map*/
+#contact-map {
+    flex-direction: column;
+}
+.con-text {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.map {
+    width: 100%;
+}
+/*contact form*/
+#con-form {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
+}
+.con-form {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 960px) and (min-width: 541px) {
+    /*contact form*/
+#con-form {
+    padding: 2rem 1rem;
+    margin: 4rem 1rem;
+}
+.con-form {
+    width: 50%;
+    margin-right: 20px;
+}
+}

@@ -1,0 +1,229 @@
+/*header section*/
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e3e6f3;
+    padding: 10px 4rem;
+    z-index: 999;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.nav-ul li{
+    margin: auto 14px;
+    position: relative;
+}
+.nav-logo img {
+    width: 120px;
+}
+
+.nav-ul{
+    position: initial;
+    transition: .5s ease;
+}
+
+
+.nav-ul a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
+    transition: .4s ease all;
+}
+.nav-ul a:hover,
+.nav-ul a.active {
+    color: #088178;
+}
+.nav-ul a.active::after,
+.nav-ul a:hover::after {
+    content: '';
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    background-color: #088178;
+}
+
+.cart-icon {
+    position: relative;
+}
+.cart-icon small {
+    position: absolute;
+    top: -70%;
+    padding: 1px 6px;
+    background-color: #088178;
+    color:white;
+    border-radius: 50%;
+    font-size: .8rem;
+    left: 47%;
+    z-index: -1;
+}
+@media only screen and (max-width: 560px) {
+
+    .btn-container{
+        display: inline-block;
+        cursor: pointer;
+        z-index: 34;
+    }
+    
+    .bar1, .bar2, .bar3{
+        width: 22px;
+        height: 3px;
+        background-color: rgba(0, 0, 0, .7);
+        margin: 4px 0;
+        transition: 0.45s;
+    }
+    
+    .change .bar1{
+        transform: rotate(-45deg) translate(-11px, 6px);
+    }
+    
+    .change .bar2{
+    opacity: 0;
+    }
+    
+    .change .bar3{
+        transform: rotate(45deg) translate(-5px, 0px);
+    }
+    /*end of menu toggle*/
+    
+    
+    .nav-ul{
+        list-style: none;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        width: 60%;
+        position: absolute;
+        right: -100%;
+        top: 0;
+        background-color: #e3e6f3;
+        padding: 80px 25px 0;
+        margin-top: 0;
+        transition: .5s ease all;
+        z-index: 10;
+    
+    }
+    
+    ul.change{
+        right: 0;
+    }
+    
+    .nav-ul li{
+        margin: 14px 0;
+        display: block;
+    }
+     .nav-ul a{
+        color: rgba(0, 0, 0, .7);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav-bar{
+        padding: 15px 1rem;
+    }
+    .sec-p {
+        padding: 5px 10px ;
+    }
+    .sec-title {
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+
+    }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-icon2{
+       font-size: 1.45rem;
+       color:#088178;
+       margin-left: 14px;
+       z-index: 999;
+       margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 541px) {
+
+    .btn-container{
+        display: inline-block;
+        cursor: pointer;
+        z-index: 34;
+    }
+    
+    .bar1, .bar2, .bar3{
+        width: 22px;
+        height: 3px;
+        background-color: rgba(0, 0, 0, .7);
+        margin: 5px 0;
+        transition: 0.45s;
+    }
+    
+    .change .bar1{
+        transform: rotate(-45deg) translate(-11px, 6px);
+    }
+    
+    .change .bar2{
+    opacity: 0;
+    }
+    
+    .change .bar3{
+        transform: rotate(45deg) translate(-5px, 0px);
+    }
+    /*end of menu toggle*/
+    
+    
+    .nav-ul{
+        list-style: none;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        width: 40%;
+        position: absolute;
+        right: -100%;
+        top: 0;
+        background-color: #e3e6f3;
+        padding: 80px 35px 0;
+        margin-top: 0;
+        transition: .5s ease all;
+        z-index: 10;
+    
+    }
+    
+    ul.change{
+        right: 0;
+    }
+    
+    .nav-ul li{
+        margin: 14px 0;
+        display: block;
+    }
+     .nav-ul a{
+        color: rgba(0, 0, 0, .7);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav-bar{
+        padding: 15px 2rem;
+    }
+
+    
+    .sec-p {
+        padding: 5px 2rem;
+    }
+    .sec-t {
+        margin: 2rem auto;
+    }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
